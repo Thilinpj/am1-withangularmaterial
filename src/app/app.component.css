@@ -1,0 +1,148 @@
+ .mat-tb-1{
+   background-color:black;
+   margin-left: 60px;
+   margin-right:60px;
+   margin-bottom:10px;
+   opacity:0.7;
+}
+h1{   
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:20px;
+  font-size:30px;
+  color:rgb(187, 75, 24);  
+}
+
+.nav-bar{
+  margin-left:70px;
+}  
+.nav-bar button{
+  font-size:20px;
+  color:white;
+} 
+
+.login-join{
+  margin-right: 10%;
+  margin-left:170px;
+}
+.login-join button{
+  font-size:20px;
+  background-color:rgb(187, 75, 24);
+  border: none;
+}
+
+
+
+
+footer {
+    background: black;
+	width:1500px;
+	margin-top:150px;
+	margin-bottom: 15px;
+	float:left;
+}
+
+div.footercol{
+    width:356.25px;
+    float:left;
+    margin-left:15px;
+    border-top: 1px solid grey;
+}
+
+div.footercol h4{
+	font-size:20px;
+	text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:white;
+
+}
+
+div.tweet p{
+    font-size:15px;
+    color:gray;
+}
+
+ul.quicklinks {
+	margin-top: 10px;
+	list-style:none;
+}
+
+ul.quicklinks li a{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	display:block;
+	border-bottom:1px solid #aaa;
+	color:white;
+}
+
+ul.quicklinks li a::before{
+	content: "»";
+}
+
+ul.quicklinks li a:hover {
+	color:red;
+}
+div.blogpost{
+	clear:both;
+}
+
+div.blogpost h5{
+    font-size:20px;
+    color:white;
+}
+
+.blogpost .postinfo{
+    color:white;
+}
+
+div.blogpost p{
+    font-size: 16px;
+    color:grey;
+}
+
+div.blogpost a.readmore{
+	float:right;
+}
+
+form.contact input, form.contact textarea{
+	background:#eee;
+	padding:5px;
+	margin-bottom: 5px;
+	width:221.25px;
+	border:none;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+form.contact textarea{
+	height:130px;
+}
+
+form.contact button{
+	background:#eee;
+	color:red;
+	border:none;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-size:16px;
+    font-family: inherit;
+    
+}
+
+div.copyright{
+	width:1500px;
+	background:#eee;
+	float:left;
+}
+
+div.left{
+	float:left;
+	margin:20px;
+}
+
+div.right{
+	float:right;
+	margin:20px;
+}
